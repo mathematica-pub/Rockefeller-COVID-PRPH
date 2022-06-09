@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Zilla+Slab');
+
+.skin-blue .main-header .logo {background-color: #046B5C;}
+.skin-blue .main-header .logo:hover {background-color: #046B5C;}
+.skin-blue .main-header .navbar {background-color: #046B5C;}        
+.skin-blue .main-sidebar {background-color: #E0D4B5;}
+.skin-blue .left-side, .skin-blue .wrapper {background-color: #F5F1E8;}
+.content-wrapper, .right-side {background-color: #F5F1E8;}
+.content-wrapper .content {padding-top: 0px; padding-bottom: 0px}
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.skin-blue .sidebar-menu>li.active>a, .skin-blue .sidebar-menu>li:hover>a {
+  background-color:#c7bb9b;
+  border-left-color: #0B2949 !important;
+}
+
+.menu-item, .shiny-download-link {
+  text-transform:uppercase;
+  font-size:18px;
+  letter-spacing:1px;
+  font-weight:600;
+  margin-left:5px;
+  display:inline;
+  color: #0B2949 !important;
+}
+
+.shiny-download-link{ 
+  margin-left:0; 
+}
+
+.wrapper{
+  overflow-y:hidden;
+}
+.main-header {
+  max-height: 750px;
+  background-color: #046B5C;
+}
+
+.main-header .logo {
+  height: 75px;
+  text-align: left;
+  margin-left: 20px;
+  background-color: #046B5C;
+}
+
+.main-sidebar {
+  margin-top: 20px;
+  background-color: #046B5C;
+}
+
+.sidebar-toggle {
+  height: 75px; 
+  padding-top: 25px !important;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.info, .legend {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.h1, h1{
+  font-family: 'Montserrat'; 
+  font-weight: 600; 
+  line-height: 1.1; 
+  font-size: 28px; 
+  color: #FFFFFF;
+}
+
+.h2, h2{
+  font-family: 'Montserrat'; 
+  font-weight: 600; 
+  line-height: 1; 
+  font-size: 18px; 
+  margin-left: 5px;
+  color: #046B5C;
+}
+
+.h3, h3{
+  font-family: 'Montserrat'; 
+  font-weight: 600; 
+  line-height: 1; 
+  font-size: 18px; 
+  color: #FFFFFF;
+}
+
+.h4, h4, #mobility_text {
+  font-family: 'Montserrat'; 
+  font-weight: 600; 
+  line-height: 1.5; 
+  font-size: 12px; 
+  color: #000000;
+}
+
+.p, p {
+  font-family: 'Zilla Slab'; 
+  font-weight: 500; 
+  font-size: 12px; 
+  color: #000000;
+  word-break: break-word;
+  white-space: normal;
+}
+
+
+.kpi-title {
+  padding-top: calc((50px)/4 - 6px) ;
+  font-family: 'Montserrat'; 
+  font-weight: 500; 
+  line-height: 1.5; 
+  font-size: 12px; 
+  color: #000000;
+  text-align: right !important;
+  vertical-align: middle;
+}
+
+.input-label {
+  font-family: 'Zilla Slab'; 
+  font-size: 16px; 
+  font-weight: 500;
+  color: #000000;
+  margin-bottom: 0;
+}
+
+.input-placeholder {
+  font-family: 'Montserrat';
+  font-weight: 500px;
+  font-size: 14px;
+  font-style: italic;
+  color: #000000;
+  vertical-align: middle;  
+}
+
+/*leaflet*/  
+.label {
+  font-family: 'Zilla Slab'; 
+  font-size: 14px; 
+  font-weight: 500; 
+  line-height: 1.1; 
+  color: #0B2949
+}
+
+.leaflet-container {
+  background: transparent;
+  background-color:rgba(255,0,0,0.0);
+}
+
+.legend {
+  padding: 6px 8px; 
+  font-size: 14px;  
+  font-family: 'Montserrat'
+}
+
+.shiny-text-output{ 
+  font-size: 16px
+}
+
+/*slider*/  
+.js-irs-0 .irs-single, .js-irs-0 .irs-bar-edge, .js-irs-0 .irs-bar {
+  background: #0B2949; 
+  border: #0B2949
+}
+.irs-grid-text, .irs-min, .irs-max, .irs-single{
+  font-family: 'Zilla Slab'; 
+  font-size: 14px; 
+  line-height: 15px;
+}
+.irs-single{
+  left:unset !important;
+  right:0;
+  position:absolute;
+}
+
+
+/*hr*/
+.hr, hr {
+  border-top: 2px solid #046B5C; 
+  margin-top: 2px; 
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.fig-info {
+  display:table-cell;
+  width: 25px;
+  vertical-align:middle;
+  font-weight: 400;
+}
+
+.section-div {
+  background: #046B5C; 
+  min-height: 50px;
+}
+
+.section-div-slim {
+  background: #046B5C; 
+  min-height: 50px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.fig-title-text {
+  display:table-cell;
+  vertical-align: middle;
+}
+
+.section-text {
+  display:table-cell;
+  font-weight: 600;
+  letter-spacing:1px;
+  text-align: left;
+  padding: 15px;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+
+.fig-title-div{
+  font-family: 'Zilla Slab'; 
+  width: 100%; 
+  min-height: 25px;
+  display:table;
+  table-layout:fixed;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: underline;
+  text-align: left;
+}  
+
+.alt-fig-title-div{
+  font-family: 'Zilla Slab'; 
+  width: 100%; 
+  min-height: 25px;
+  display:table;
+  table-layout:fixed;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: underline;
+  text-align: left;
+}  
+
+.about-text {
+    font-weight: 500;
+    text-align: left;
+    margin-left: 15px;   
+    margin-right: 20px;
+    font-size:16px;
+    vertical-align: bottom;
+    color: black;
+    display:inline-block;
+}
+  
+.sweet-alert button, .sweet-alert button:focus  {
+  background-color: #046B5C !important;
+}      
+
+.sweet-alert button:hover {
+  background-color: #02473d !important;
+}  
+
+kpi_point, .kpi_point{
+  fill: #F1B51C;
+  stroke-width: 3;
+}
+
+.tooltip {
+    position: absolute;
+    left: 5px;
+    text-align: center;
+    max-width: 100px;
+    max-height: 100px;
+    padding: 5px;
+    font-size: 14px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    pointer-events: none;
+    font-family:'Zilla Slab';
+    font-weight: 500;
+}
+
+.kpi_xaxis path {
+  stroke: none;
+}
+
+.subheading {
+  font-size:16px;
+  font-weight: 600;
+  letter-spacing:1px;
+  text-align: left;
+  color: #046B5C !important;
+}
+
+/* display links in info buttons inline*/
+.info-button-link {
+  display: inline !important;
+  padding: 0 !important;
+  color: #0000EE !important;
+}
+
+.shiny-output-error-validation {
+    font-size: 16px !important; 
+    font-weight: 100 !important;
+    text-align: left !important;
+    font-family: Montserrat !important;
+    line-height: 1 !important;
+    color: gray !important;
+}
+    

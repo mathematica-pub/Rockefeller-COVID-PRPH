@@ -1,0 +1,13 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+data/temp/
+data/missing_population_geos.csv
+rsconnect/
+*.html
+*.log
+.bash_history
+.local/
+.rstudio/
+
