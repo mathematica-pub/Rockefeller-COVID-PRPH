@@ -1,0 +1,13 @@
+#!/bin/sh
+
+unstaged_files=$(git diff --name-only)
+Rscript -e "renv::snapshot()"
+if [[ "$unstaged_files" == *"renv.lock"* ]]; then
+  echo "Adding updated renv.lock file to commit"
+  git add renv.lock
+  git commit -m "chore: update renv.lock"
+fi
+
+command -v git-lfs >/dev/null 2>&1 || { echo >&2 "\nThis repository is configured for Git LFS but 'git-lfs' was not found on your path. If you no longer wish to use Git LFS, remove this hook
+by deleting .git/hooks/pre-push.\n"; exit 2; }
+  git lfs pre-push "$@"
